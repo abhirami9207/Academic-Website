@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div id="navigation">
+        <img src="cambridge_logo.png" id="camicon">
+
+        <p id="aca">UNIVERSITY OF</p>
+        <p id="head">CAMBRIDGE</p>
+        <img src="home.png" id="home">
+        <a href="index.html" id="h">Home</a>
+
+        <div id="details">
+            <marquee id="de"><i>The University of Cambridge can be contacted by phone at<u> +44 (0)1223 337733</u> or by
+                    post,
+                    The Old Schools, Trinity Lane, Cambridge, CB2 1TN, UK.</i>
+            </marquee><br>
+            <marquee id="de"><i> For general inquiries, you can email <u>directcs@cambridge.org</u> or call
+                    <u>+44(0)1223
+                        553311</u>, according to Cambridge University Press & Assessment.</i></marquee>
+        </div>
+
+
+
+    </div>
+    <div id="line"></div>
+    <div id="new">
+        <div id="trans">
+            <p id="sign"><b>Sign Up</b></p>
+            <form class="form">
+                <br><input type="text" class="for" id="fn" placeholder="Your name" onchange="fname()" required><br>
+                <span id="sfn"></span>
+                <br><input type="text" class="for" id="ph" placeholder="Enter Phone No" onchange="phone()" required><br>
+                <span id="sph"></span>
+                <br><input type="text" class="for" id="em" placeholder="Enter E-mail" onchange="email()" required><br>
+                <span id="sem"></span>
+                <br><input type="text" class="for" id="ag" placeholder="Enter your age" onchange="age()" required><br>
+                <span id="sag"></span>
+                <br><input type="text" class="for" id="un" placeholder="Create username" onchange="username()"
+                    required><br>
+                <span id="sun"></span>
+                <br><input type="password" class="for" id="pw" placeholder="Create new password" onchange="password()"
+                    required><br>
+                <span id="spw"></span>
+                <br><input type="text" class="for" id="cp" placeholder="Confirm password" onchange="con_passwd()"
+                    required><br>
+                <span id="scp"></span>
+                <div id="done"><button id="d" onclick="done()">Done</button>/div>
+                    <script src="signup.js"></script>
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

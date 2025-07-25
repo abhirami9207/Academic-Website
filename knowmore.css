@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+}
+
+#navigation {
+    width: 100%;
+    height: 120px;
+}
+
+#aca {
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    top: 20px;
+    margin-top: -115px;
+    margin-left: 125px;
+    font-family: "Castellar";
+    margin-right: 500px;
+}
+
+#h {
+    text-decoration: none;
+    float: right;
+    margin-top: -145px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.im {
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding-right: 20px;
+    margin-bottom: 50 px;
+    margin-top: -50px;
+}
+
+#camicon {
+    width: 120px;
+    height: 120px;
+}
+
+#head {
+    margin-left: 125px;
+    font-size: 57px;
+    font-family: "Castellar";
+    margin-top: -45px;
+    margin-right: 1200px;
+}
+
+#details {
+    width: 50%;
+    height: 120px;
+    margin-top: -185px;
+    margin-left: 590px;
+
+}
+
+#de {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#home {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: 80px;
+    background-color: brown;
+    margin-top: -150px;
+}
+
+#line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(169, 162, 162);
+}
+
+#firstpage {
+    width: 100%;
+    height: 2200px;
+    background-image: url(pencil.jpeg);
+
+    margin-top: -38px;
+}
+
+#para {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#im2 {
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    margin-left: 60px;
+    border-radius: 35px;
+    box-shadow: 2px 2px 2px 2px;
+    transition-duration: 2s;
+
+}
+
+#im2:hover {
+    transform: rotateY(90deg);
+}
+
+#p1 {
+    width: 600px;
+    height: 700px;
+    margin-top: -800px;
+    margin-left: 800px;
+
+
+}
+
+#p2 {
+    width: 600px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+#para1 {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    margin-left: 900px;
+    margin-top: -600px;
+
+
+}
+
+#pictures {
+    height: 1200;
+    width: 100%;
+    margin-top: 150px;
+    background-image: url(claiton-conto-d04InHBycFs-unsplash.jpg);
+}
+
+#para2 {
+
+    font-size: 30px;
+    font-family: Comic Sans MS;
+}
+
+#text {
+    background-image: url(pencil.jpeg);
+    margin-top: -30px;
+    padding-bottom: 10px;
+
+
+}
+
+#select {
+
+    width: 100%;
+    height: 1300px;
+    margin-top: -20px;
+}
+
+#about {
+    padding-top: 30px;
+}
+
+#im3 {
+    width: 400px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+#library1 {
+
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    margin-left: 80px;
+    background-color: black;
+
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+#libimg {
+    width: 400px;
+    height: 450px;
+
+}
+
+#lib {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 130px;
+    font-family: Lucida Sans;
+
+}
+
+#library2 {
+    margin-top: -500px;
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    margin-left: 550px;
+
+    box-shadow: 2px 2px 2px 2px;
+    transition-duration: 2s;
+}
+
+#library3 {
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    margin-top: -500px;
+    background-color: black;
+    margin-left: 1010px;
+
+    box-shadow: 2px 2px 2px 2px;
+    transition-duration: 2s;
+}
+
+#library4 {
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    margin-left: 80px;
+    background-color: black;
+
+    box-shadow: 2px 2px 2px 2px;
+    transition-duration: 2s;
+}
+
+#library5 {
+    margin-top: 80px;
+    margin-top: -500px;
+    width: 400px;
+    background-color: black;
+    height: 500px;
+    margin-left: 550px;
+
+    box-shadow: 2px 2px 2px 2px;
+    transition-duration: 2s;
+}
+
+#library6 {
+    margin-top: 80px;
+    margin-top: -500px;
+    width: 400px;
+    height: 500px;
+    margin-left: 1010px;
+    background-color: black;
+}

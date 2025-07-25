@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="sign_in.css">
+</head>
+
+<body>
+    <div id="navigation">
+        <img src="cambridge_logo.png" id="camicon">
+
+        <p id="aca">UNIVERSITY OF</p>
+        <p id="head">CAMBRIDGE</p>
+        <img src="home.png" id="home">
+        <a href="index.html" id="h">Home</a>
+
+        <div id="details">
+            <marquee id="de"><i>The University of Cambridge can be contacted by phone at<u> +44 (0)1223 337733</u> or by
+                    post,
+                    The Old Schools, Trinity Lane, Cambridge, CB2 1TN, UK.</i>
+            </marquee><br>
+            <marquee id="de"><i> For general inquiries, you can also email <u>directcs@cambridge.org</u> or call
+                    <u>+44(0)1223
+                        553311</u>, according to Cambridge University Press & Assessment.</i></marquee>
+        </div>
+    </div>
+    <div id="line"></div>
+    <div id="back">
+        <div id="trans">
+            <p id="i"><b>Sign In</b></p>
+            <form class="form">
+                <br><input type="text" class="for" id="un" placeholder="Enter username" onchange="username()" required>
+                <span id="sun"></span>
+                <br><input type="text" class="for" id="pw" placeholder="Enter password" onchange="password()" required>
+                <span id="spw"></span>
+                <div id="done"><button id="d" onclick="signin()">Sign In</button></div>
+                <script src="sign_in.js"></script>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
